@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lámina 4.1 Actualizada - Grupo Diana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: #F5F5F4;
+            padding: 40px;
+            color: #0A0A0A;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 48px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(10,10,10,0.06);
+        }
+        
+        .header {
+            margin-bottom: 40px;
+        }
+        
+        .eyebrow {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: #8B8B87;
+            margin-bottom: 8px;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 16px;
+        }
+        
+        .subtitle {
+            font-size: 20px;
+            color: #5C5C59;
+            margin-bottom: 32px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+        
+        th {
+            text-align: left;
+            padding: 14px 16px;
+            font-weight: 700;
+            font-size: 13px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            border-bottom: 2px solid #0A0A0A;
+            color: #0A0A0A;
+            background: white;
+        }
+        
+        td {
+            padding: 16px;
+            border-bottom: 1px solid #D4D4D1;
+            font-size: 16px;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        tr.official {
+            background: #F5F5F4;
+        }
+        
+        tr.alert {
+            background: #FFE8DC;
+        }
+        
+        tr.alert td {
+            color: #FF5A1F;
+            font-weight: 700;
+        }
+        
+        .author-name {
+            font-weight: 700;
+        }
+        
+        .num {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .bar-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .bar {
+            height: 18px;
+            background: #0A0A0A;
+            border-radius: 2px;
+        }
+        
+        .bar.official {
+            background: #0A0A0A;
+        }
+        
+        .bar.alert {
+            background: #FF5A1F;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin: 40px 0;
+            padding: 24px;
+            background: #F5F5F4;
+            border-radius: 8px;
+        }
+        
+        .stat {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #8B8B87;
+        }
+        
+        .stat-value {
+            font-size: 32px;
+            font-weight: 900;
+            color: #0A0A0A;
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .stat-sub {
+            font-size: 14px;
+            color: #5C5C59;
+            line-height: 1.4;
+        }
+        
+        .insight {
+            margin-top: 40px;
+            padding: 24px;
+            background: #FAFAF7;
+            border-left: 4px solid #FF5A1F;
+            border-radius: 4px;
+        }
+        
+        .insight-title {
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FF5A1F;
+            margin-bottom: 12px;
+        }
+        
+        .insight-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #3A3A38;
+        }
+        
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #D4D4D1;
+            font-size: 13px;
+            color: #8B8B87;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="eyebrow">04 · Contenido propio</div>
+            <h1>Canales oficiales vs universo</h1>
+            <p class="subtitle">Los canales propios son eficientes, pero no lideran el corpus.</p>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Autor</th>
+                    <th>Tipología</th>
+                    <th class="num">Posts</th>
+                    <th class="num">Eng. total</th>
+                    <th>Peso</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr class="alert">
+                    <td class="author-name">yuliethg60</td>
+                    <td>Usuario/Terceros</td>
+                    <td class="num">1</td>
+                    <td class="num">38,872</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar alert" style="width: 100.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="official">
+                    <td class="author-name">alimentosdiana</td>
+                    <td>Canal oficial</td>
+                    <td class="num">47</td>
+                    <td class="num">19,632</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar official" style="width: 51.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td class="author-name">valentinamb2708</td>
+                    <td>Usuario/Terceros</td>
+                    <td class="num">1</td>
+                    <td class="num">4,894</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar official" style="width: 13.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="official">
+                    <td class="author-name">Familia Diana</td>
+                    <td>Canal oficial</td>
+                    <td class="num">35</td>
+                    <td class="num">3,994</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar official" style="width: 10.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td class="author-name">javiervivicc</td>
+                    <td>Usuario/Terceros</td>
+                    <td class="num">1</td>
+                    <td class="num">2,751</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar official" style="width: 7.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td class="author-name">sam_world_0</td>
+                    <td>Usuario/Terceros</td>
+                    <td class="num">1</td>
+                    <td class="num">699</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar official" style="width: 2.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td class="author-name">Alfredo Sabbagh Fajardo 🇵🇸</td>
+                    <td>Usuario/Terceros</td>
+                    <td class="num">1</td>
+                    <td class="num">326</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar official" style="width: 1.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td class="author-name">CarloGato</td>
+                    <td>Usuario/Terceros</td>
+                    <td class="num">1</td>
+                    <td class="num">319</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar official" style="width: 1.0px;"></div>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+        <div class="stats">
+
+            <div class="stat">
+                <div class="stat-label">Eng. canales propios combinados</div>
+                <div class="stat-value">23,626</div>
+                <div class="stat-sub">alimentosdiana + Familia Diana sobre 82 posts.</div>
+            </div>
+            
+            <div class="stat">
+                <div class="stat-label">Eng. un solo video denuncia</div>
+                <div class="stat-value" style="color: #FF5A1F;">38,872</div>
+                <div class="stat-sub">Un usuario anónimo superó a ambos canales oficiales juntos.</div>
+            </div>
+            
+            <div class="stat">
+                <div class="stat-label">% del Top 8</div>
+                <div class="stat-value">33.0%</div>
+                <div class="stat-sub">Canales oficiales en los 8 autores principales.</div>
+            </div>
+        </div>
+        
+        <div class="insight">
+            <div class="insight-title">📊 Lectura</div>
+            <div class="insight-text">
+                La marca tiene canales efectivos, pero el ecosistema amplifica a terceros —positivos y negativos— con mucha más velocidad. 
+                Un usuario anónimo generó 1.65× el engagement combinado de ambos canales oficiales con un solo post de denuncia de calidad.
+            </div>
+        </div>
+        
+        <div class="footer">
+            04 · Contenido propio · Grupo Diana · Monitoreo Digital · Nov 2025 – May 2026 · artool.
+        </div>
+    </div>
+</body>
+</html>
