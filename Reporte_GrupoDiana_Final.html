@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<!-- saved from url=(0854)https://storage.googleapis.com/artool-reports/reports/social-listening-report/20260528-173802.html?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=artool-mcp-sa%40artool-apify.iam.gserviceaccount.com%2F20260528%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260528T173802Z&X-Goog-Expires=604800&X-Goog-SignedHeaders=host&X-Goog-Signature=85aa81d8747d0c85c4bf9c1584d687c16d56668197fe9909fbd0ae56dbdfb18cc4d87295e1fa7b0728c05e21774d050d1a6c063ff8fe7a54c0fcecb0558c6d8be44566f792d5cdccf2b353d0b265f1f1f4429aac47cbfa3d49e2bf43df1a9b038af619fedc5c8778fea77774af3f44af53ff59ab7eedb3af942ed7722a55c0df49caf650ac3fa9e21eed11c8a27280142f6b62322451acf07f4a8ee88690a4520c69044dd555e8480eb9dd02ae82e70e4ed78df4b092800dfd4b0bb563f421136751a2e4a280cbf6450027d4fc175b644c7b4b62d02d843fbc02a4961a8de8b92148114cea3d65e42fa86bcad2656f91936c275efa378fc247ce9003101562f8 -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Grupo Diana · Monitoreo Digital · Nov 2025 – May 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --ink: #0A0A0A; --ink-pure: #000000;
+  --paper: #FFFFFF; --paper-warm: #FAFAF7;
+  --n-50: #F5F5F4; --n-100: #EAEAE8; --n-200: #D4D4D1;
+  --n-300: #B8B8B4; --n-400: #8B8B87; --n-500: #5C5C59;
+  --n-600: #3A3A38; --n-700: #262625; --n-800: #161615; --n-900: #0A0A0A;
+  --fg-1: var(--ink); --fg-2: var(--n-500); --fg-3: var(--n-400);
+  --fg-inv: var(--paper); --bg-1: var(--paper); --bg-2: var(--n-50);
+  --bg-3: var(--n-100); --bg-inv: var(--ink);
+  --line-1: var(--n-100); --line-2: var(--n-200); --line-strong: var(--n-900);
+  --accent: #FF5A1F; --accent-hover: #E94D14; --accent-soft: #FFE8DC;
+  --neg-fill: #B5251D; --pos-fill: #1B9E4B; --neu-fill: #EAEAE8;
+  --r-xs: 4px; --r-sm: 8px; --r-md: 12px; --r-lg: 20px; --r-xl: 28px; --r-pill: 999px;
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px;
+  --sp-6: 32px; --sp-7: 48px; --sp-8: 64px; --sp-9: 96px; --sp-10: 128px;
+  --shadow-1: 0 1px 2px rgba(10,10,10,.04), 0 1px 1px rgba(10,10,10,.02);
+  --shadow-2: 0 4px 12px rgba(10,10,10,.06), 0 1px 3px rgba(10,10,10,.04);
+  --shadow-3: 0 12px 32px rgba(10,10,10,.10), 0 4px 12px rgba(10,10,10,.05);
+  --font-display: 'Visby CF','Inter',system-ui,-apple-system,sans-serif;
+  --font-body: 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono: 'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  --t-eyebrow: 22px; --t-title: 72px; --t-h1: 96px; --t-h2: 56px;
+  --t-h3: 40px; --t-body: 28px; --t-small: 22px; --t-micro: 18px;
+}
+
+body {
+  font-family: var(--font-body); font-size: 16px; line-height: 1.45;
+  color: var(--fg-1); background: var(--n-50);
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+deck-stage { display: block; }
+deck-stage section {
+  background: var(--paper); color: var(--ink);
+  overflow: hidden; position: relative; display: block;
+  margin: 24px auto; box-shadow: var(--shadow-2);
+}
+
+.slide { width: 1920px; height: 1080px; position: relative; display: flex; flex-direction: column; }
+.frame { padding: 64px 96px 150px; display: flex; flex-direction: column; flex: 1; min-height: 0; }
+
+.slide-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 32px 96px; border-bottom: 1px solid var(--n-100);
+}
+.slide-header .eyebrow {
+  font-family: var(--font-body); font-weight: 700; font-size: 16px;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--n-500);
+}
+.slide-header .crumb { display: flex; gap: 14px; align-items: center; }
+.slide-header .crumb b { font-weight: 700; color: var(--ink); }
+.slide-header .dot { color: var(--n-300); }
+
+.slide-footer {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 28px 96px; font-size: 14px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--n-400); font-weight: 600;
+  border-top: 1px solid var(--n-100);
+}
+.slide-footer .right { display: flex; gap: 16px; align-items: center; }
+
+.slide.dark { background: var(--ink); color: var(--paper); }
+.slide.dark .slide-header { border-bottom-color: rgba(255,255,255,.08); }
+.slide.dark .slide-header .eyebrow,
+.slide.dark .slide-header .crumb,
+.slide.dark .slide-header .dot { color: rgba(255,255,255,.55); }
+.slide.dark .slide-header .crumb b { color: var(--paper); }
+.slide.dark .slide-footer { border-top-color: rgba(255,255,255,.08); color: rgba(255,255,255,.45); }
+
+.t-eyebrow {
+  font-family: var(--font-body); font-weight: 700; font-size: var(--t-eyebrow);
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--n-500);
+}
+.t-title {
+  font-family: var(--font-display); font-weight: 900; font-size: var(--t-title);
+  line-height: 1.02; letter-spacing: -0.025em; text-wrap: balance;
+}
+.t-h2 {
+  font-family: var(--font-display); font-weight: 900; font-size: var(--t-h2);
+  line-height: 1.02; letter-spacing: -0.025em;
+}
+.t-h3 {
+  font-family: var(--font-display); font-weight: 900; font-size: var(--t-h3);
+  line-height: 1.05; letter-spacing: -0.02em;
+}
+.t-body { font-size: var(--t-body); line-height: 1.45; color: var(--ink); text-wrap: pretty; }
+.t-body--muted { color: var(--n-500); }
+.t-small { font-size: var(--t-small); line-height: 1.45; color: var(--n-600); }
+.t-micro { font-size: var(--t-micro); line-height: 1.4; color: var(--n-500); }
+.dark .t-eyebrow { color: rgba(255,255,255,.55); }
+.dark .t-body { color: var(--paper); }
+.dark .t-body--muted { color: rgba(255,255,255,.65); }
+.dark .t-small { color: rgba(255,255,255,.7); }
+.dark .t-micro { color: rgba(255,255,255,.55); }
+
+.row { display: flex; gap: 48px; }
+.col { display: flex; flex-direction: column; }
+.fill { flex: 1; }
+.gap-3 { gap: 12px; } .gap-4 { gap: 16px; } .gap-5 { gap: 24px; }
+.gap-6 { gap: 32px; } .gap-7 { gap: 48px; } .gap-8 { gap: 64px; }
+.mt-4 { margin-top: 16px; } .mt-5 { margin-top: 24px; }
+.mt-6 { margin-top: 32px; } .mt-7 { margin-top: 48px; } .mt-8 { margin-top: 64px; }
+.hr { height: 1px; background: var(--n-100); border: 0; }
+.dark .hr { background: rgba(255,255,255,.12); }
+.rule-strong { height: 4px; width: 64px; background: var(--ink); border: 0; }
+.dark .rule-strong { background: var(--paper); }
+
+.bignum {
+  font-family: var(--font-display); font-weight: 900; font-size: 168px;
+  line-height: 0.9; letter-spacing: -0.04em; color: var(--ink);
+}
+.bignum.medium { font-size: 120px; }
+.bignum.small { font-size: 88px; }
+.dark .bignum { color: var(--paper); }
+
+.stat { display: flex; flex-direction: column; gap: 8px; padding-top: 24px; border-top: 1px solid var(--n-200); }
+.stat .label { font-weight: 600; font-size: 18px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--n-500); }
+.stat .value {
+  font-family: var(--font-display); font-weight: 900; font-size: 64px;
+  line-height: 1; letter-spacing: -0.02em; color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.stat .sub { font-size: 18px; color: var(--n-500); margin-top: 4px; line-height: 1.4; }
+.dark .stat { border-top-color: rgba(255,255,255,.18); }
+.dark .stat .label { color: rgba(255,255,255,.6); }
+.dark .stat .value { color: var(--paper); }
+.dark .stat .sub { color: rgba(255,255,255,.6); }
+
+.tbl { width: 100%; border-collapse: collapse; font-size: 22px; }
+.tbl th, .tbl td { text-align: left; padding: 18px 20px; border-bottom: 1px solid var(--n-100); vertical-align: top; }
+.tbl thead th {
+  font-weight: 700; font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--n-500); border-bottom: 1.5px solid var(--ink); padding: 12px 20px 14px;
+}
+.tbl td.num, .tbl th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.tbl td.strong { font-weight: 700; }
+
+.numlist { display: flex; flex-direction: column; gap: 36px; }
+.numlist .item { display: grid; grid-template-columns: 96px 1fr; gap: 32px; align-items: start; }
+.numlist .num {
+  font-family: var(--font-display); font-weight: 900; font-size: 56px;
+  line-height: 0.9; color: var(--ink); letter-spacing: -0.02em;
+  border-top: 3px solid var(--ink); padding-top: 12px;
+}
+.numlist .num--accent { color: var(--accent); border-top-color: var(--accent); }
+.numlist h4 {
+  font-family: var(--font-display); font-weight: 900; font-size: 30px;
+  line-height: 1.05; letter-spacing: -0.015em; margin: 0 0 8px;
+}
+.numlist p { font-size: 22px; line-height: 1.45; color: var(--n-600); margin: 0; }
+.dark .numlist .num { color: var(--paper); border-top-color: var(--paper); }
+.dark .numlist h4 { color: var(--paper); }
+.dark .numlist p { color: rgba(255,255,255,.7); }
+
+.quote {
+  font-family: var(--font-display); font-weight: 900; font-size: 44px;
+  line-height: 1.18; letter-spacing: -0.02em; color: var(--ink); text-wrap: balance;
+}
+.quote .source {
+  display: block; margin-top: 28px; font-family: var(--font-body); font-weight: 600;
+  font-size: 18px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--n-500);
+}
+
+.divider {
+  display: flex; flex-direction: column; justify-content: space-between;
+  padding: 80px 96px 96px; height: 100%; background: var(--ink); color: var(--paper);
+}
+.divider .ch-num {
+  font-family: var(--font-display); font-weight: 900; font-size: 380px;
+  line-height: 0.85; letter-spacing: -0.05em; color: var(--paper);
+}
+.divider .ch-title {
+  font-family: var(--font-display); font-weight: 900; font-size: 92px;
+  line-height: 0.96; letter-spacing: -0.03em; max-width: 1400px;
+}
+.divider .ch-eyebrow {
+  font-weight: 700; font-size: 18px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: rgba(255,255,255,.55); margin-bottom: 24px;
+}
+.divider .ch-desc { font-size: 24px; line-height: 1.45; color: rgba(255,255,255,.75); max-width: 880px; margin-top: 24px; }
+.divider .top-row { display: flex; justify-content: space-between; align-items: flex-start; }
+
+.cover {
+  background: var(--ink); color: var(--paper); width: 100%; height: 100%;
+  box-sizing: border-box; display: grid; grid-template-rows: auto 1fr auto; padding: 64px 96px;
+}
+.cover .top { display: flex; justify-content: space-between; align-items: center; }
+.cover .confidential {
+  font-weight: 600; font-size: 15px; letter-spacing: 0.2em; text-transform: uppercase;
+  color: rgba(255,255,255,.45); border: 1px solid rgba(255,255,255,.2);
+  padding: 8px 18px; border-radius: var(--r-pill);
+}
+.cover .center { display: flex; flex-direction: column; justify-content: center; }
+.cover h1.cover-title {
+  font-family: var(--font-display); font-weight: 900; font-size: 148px;
+  line-height: 0.92; letter-spacing: -0.04em; max-width: 1500px;
+}
+.cover .cover-sub { font-size: 30px; line-height: 1.35; color: rgba(255,255,255,.72); max-width: 1100px; margin-top: 36px; }
+.cover .cover-eyebrow {
+  font-weight: 700; font-size: 20px; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(255,255,255,.5); margin-bottom: 32px;
+}
+.cover .meta {
+  display: flex; gap: 32px; align-items: center; font-weight: 600; font-size: 16px;
+  letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255,255,255,.55);
+}
+.cover .meta-sep { color: rgba(255,255,255,.25); }
+
+.closing {
+  background: var(--ink); color: var(--paper); height: 100%; width: 100%;
+  box-sizing: border-box; display: grid; grid-template-rows: auto 1fr auto; padding: 64px 96px;
+}
+
+.barbar { height: 18px; background: var(--n-100); position: relative; overflow: hidden; }
+.barbar > i { position: absolute; top: 0; bottom: 0; left: 0; background: var(--ink); }
+.dark .barbar { background: rgba(255,255,255,.1); }
+.dark .barbar > i { background: var(--paper); }
+
+.chart-wrap { background: var(--paper); border: 1px solid var(--n-200); padding: 32px 40px 24px; position: relative; }
+
+.accent-color { color: var(--accent); }
+.neg-color { color: #B5251D; }
+.pos-color { color: #0F6B33; }
+.tabular { font-variant-numeric: tabular-nums; }
+.mono { font-family: var(--font-mono); }
+
+/* ── Presenter mode · fullscreen + keyboard nav ── */
+.presenter-controls {
+  position: fixed; bottom: 18px; right: 18px; z-index: 99999;
+  display: flex; gap: 6px; align-items: center;
+  background: rgba(10,10,10,0.85); color: #fff;
+  padding: 8px 12px; border-radius: 0;
+  font-family: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+  font-size: 11px; letter-spacing: 0.06em;
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+.presenter-controls button {
+  background: transparent; color: #fff;
+  border: 1px solid rgba(255,255,255,0.25);
+  padding: 5px 9px; font-size: 11px; cursor: pointer;
+  font-family: inherit; letter-spacing: inherit;
+  text-transform: uppercase; font-weight: 600;
+}
+.presenter-controls button:hover {
+  background: rgba(255,255,255,0.12); border-color: #FF5A1F; color: #FF5A1F;
+}
+.presenter-controls .counter { padding: 0 6px; min-width: 48px; text-align: center; }
+@media print { .presenter-controls { display: none !important; } }
+
+body.presenting { background: #000; overflow: hidden; margin: 0; }
+body.presenting section[data-label] { display: none; }
+body.presenting section[data-label].current {
+  display: block; position: fixed; top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(min(calc(100vw / 1920), calc(100vh / 1080)));
+  transform-origin: center center;
+}
+
+</style>
+</head>
+<body>
+<deck-stage>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     01 · PORTADA
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="01 Portada">
+<div class="slide dark">
+  <div class="cover">
+    <div class="top">
+      <div style="display:flex;align-items:center;gap:20px;">
+        <div style="font-family:var(--font-display);font-weight:900;font-size:42px;letter-spacing:-0.02em;color:var(--paper);">GRUPO<br>DIANA</div>
+        <div style="width:1px;height:56px;background:rgba(255,255,255,.25);"></div>
+        <div style="font-weight:600;font-size:16px;letter-spacing:0.14em;text-transform:uppercase;color:rgba(255,255,255,.5);">Monitoreo digital</div>
+      </div>
+      <div class="confidential">Reporte ejecutivo · Confidencial</div>
+    </div>
+    <div class="center">
+      <div class="cover-eyebrow">Escucha social · Nov 2025 – May 2026 · 177 días</div>
+      <h1 class="cover-title">Contenido propio<br>rinde, pero la calidad<br>del producto amenaza<br>la conversación.</h1>
+      <p class="cover-sub">Análisis de 462 publicaciones y menciones en Facebook, Instagram, TikTok y Twitter. Evaluación de desempeño de canales oficiales, campañas activas y narrativas orgánicas en torno a la marca.</p>
+    </div>
+    <div class="meta">
+      <span>Noviembre 2025 – Mayo 2026</span>
+      <span class="meta-sep">·</span>
+      <span>462 registros analizados</span>
+      <span class="meta-sep">·</span>
+      <span>97.135 interacciones totales</span>
+      <span class="meta-sep">·</span>
+      <span>Preparado por Artool</span>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     02 · TABLA DE CONTENIDOS
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="02 Tabla de contenidos">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">Grupo Diana · Monitoreo digital</div>
+    <div class="crumb"><span>Índice</span><span class="dot">·</span><b>Estructura del reporte</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:40px;">Estructura del reporte</p>
+    <h2 class="t-title" style="margin-bottom:64px;">Ocho capítulos, una lectura.</h2>
+    <div class="row" style="align-items:start;flex:1;">
+      <div class="col fill gap-7">
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--n-100);">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--n-300);letter-spacing:-0.02em;">01</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Resumen ejecutivo</div><div style="font-size:19px;color:var(--n-500);">Las 4 lecturas centrales del período y la tesis.</div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--n-100);">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--n-300);letter-spacing:-0.02em;">02</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Volumen y dinámica temporal</div><div style="font-size:19px;color:var(--n-500);">177 días de conversación, picos y cadencia mensual.</div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--n-100);">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--n-300);letter-spacing:-0.02em;">03</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Desempeño por plataforma</div><div style="font-size:19px;color:var(--n-500);">Facebook, Instagram y TikTok: dónde genera tracción la marca.</div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--n-100);">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--n-300);letter-spacing:-0.02em;">04</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Contenido propio: formatos y temas</div><div style="font-size:19px;color:var(--n-500);">Qué publica la marca y qué genera más engagement.</div></div>
+        </div>
+      </div>
+      <div style="width:1px;background:var(--n-100);align-self:stretch;"></div>
+      <div class="col fill gap-7">
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--n-100);">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--n-300);letter-spacing:-0.02em;">05</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Campañas del período</div><div style="font-size:19px;color:var(--n-500);">Reconocimiento a la Mujer Diana: alcance, resonancia y desempeño.</div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--n-100);">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--n-300);letter-spacing:-0.02em;">06</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Sentimiento y narrativas orgánicas</div><div style="font-size:19px;color:var(--n-500);">Cómo habla la conversación no propia sobre Diana.</div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;padding-bottom:32px;border-bottom:1px solid var(--n-100);">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--accent);letter-spacing:-0.02em;">07</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Señales de alerta: calidad de producto</div><div style="font-size:19px;color:var(--n-500);">El clúster de gorgojos/gusanos y su potencial de escala.</div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start;">
+          <div style="font-family:var(--font-display);font-weight:900;font-size:40px;color:var(--n-300);letter-spacing:-0.02em;">08</div>
+          <div><div style="font-family:var(--font-display);font-weight:900;font-size:26px;margin-bottom:6px;">Recomendaciones estratégicas</div><div style="font-size:19px;color:var(--n-500);">Acciones concretas de contenido, comunidad y vigilancia.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>Índice</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 01 · DIVIDER — Resumen ejecutivo
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 01 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num">01</div>
+      <div class="ch-title">Resumen<br>ejecutivo.</div>
+      <div class="ch-desc">Cuatro lecturas que condensan 177 días de conversación y establecen la tesis central del reporte.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     01.2 · RESUMEN EJECUTIVO — 4 lecturas (numlist)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="01.2 Cuatro lecturas">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">01 · Resumen ejecutivo</div>
+    <div class="crumb"><span>1.2</span><span class="dot">·</span><b>Cuatro lecturas del período</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:40px;">Lecturas centrales</p>
+    <h2 class="t-title" style="margin-bottom:56px;">Lo que el período deja claro.</h2>
+    <div class="row" style="flex:1;align-items:start;">
+      <div class="col fill gap-6">
+        <div class="numlist">
+          <div class="item">
+            <div class="num">01</div>
+            <div>
+              <h4>El contenido emocional convierte.</h4>
+              <p>Publicaciones ligadas a madre, mujer y familia (especialmente "Reconocimiento a la Mujer Diana") concentran el grueso del engagement propio. TikTok supera en tracción por post a las otras plataformas.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="num">02</div>
+            <div>
+              <h4>Las campañas tienen eco real en la audiencia.</h4>
+              <p>"Reconocimiento a la Mujer Diana" domina el corpus orgánico y genera engagement consistente en todas las plataformas colombianas. La campaña activó a la comunidad de forma orgánica y sostenida durante el período.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="width:1px;background:var(--n-100);align-self:stretch;"></div>
+      <div class="col fill gap-6">
+        <div class="numlist">
+          <div class="item">
+            <div class="num num--accent">03</div>
+            <div>
+              <h4 style="color:var(--ink);">El clúster de calidad es el mayor riesgo.</h4>
+              <p>22% de las narrativas giran en torno a gorgojos, gusanos y moho. Un solo video de denuncia (yuliethg60) generó 38.872 interacciones —el post de mayor engagement de todo el período.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="num">04</div>
+            <div>
+              <h4>La marca tiene top of mind, pero paga un precio.</h4>
+              <p>Diana aparece en el ranking GEMA 2025 de Revista P&amp;M, es referencia de precio en el debate político y punto de comparación cultural. Esa ubicuidad también expone la marca a cualquier queja.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>01 · Resumen ejecutivo</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 02 · DIVIDER — Volumen y dinámica temporal
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 02 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num">02</div>
+      <div class="ch-title">Volumen y<br>dinámica<br>temporal.</div>
+      <div class="ch-desc">177 días de conversación: cómo evolucionó el volumen mes a mes y dónde se concentraron los picos de actividad.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     02.1 · MÉTRICAS GLOBALES (stats grid)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="02.1 Métricas globales">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">02 · Volumen y dinámica temporal</div>
+    <div class="crumb"><span>2.1</span><span class="dot">·</span><b>Métricas del período</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:32px;">Nov 2025 – May 2026</p>
+    <h2 class="t-title" style="margin-bottom:72px;">El corpus en cifras.</h2>
+    <div class="row" style="gap:0;flex:1;align-items:start;">
+      <div class="col fill" style="padding-right:64px;border-right:1px solid var(--n-100);">
+        <div class="stat">
+          <div class="label">Registros totales</div>
+          <div class="value">462</div>
+          <div class="sub">Publicaciones y menciones analizadas en el período de 177 días.</div>
+        </div>
+      </div>
+      <div class="col fill" style="padding:0 64px;border-right:1px solid var(--n-100);">
+        <div class="stat">
+          <div class="label">Interacciones totales</div>
+          <div class="value">97.135</div>
+          <div class="sub">Engagement acumulado. El 40% está en solo 3 autores.</div>
+        </div>
+      </div>
+      <div class="col fill" style="padding:0 64px;border-right:1px solid var(--n-100);">
+        <div class="stat">
+          <div class="label">Peak mensual</div>
+          <div class="value">33</div>
+          <div class="sub">Registros en un solo día (4 May 2026 · campaña Día de la Madre + denuncia calidad).</div>
+        </div>
+      </div>
+      <div class="col fill" style="padding-left:64px;">
+        <div class="stat">
+          <div class="label">Engagement máx. por post</div>
+          <div class="value accent-color">38.872</div>
+          <div class="sub">Video de denuncia yuliethg60 en TikTok (30 abr 2026). Mayor interacción del corpus.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>02 · Volumen y dinámica temporal</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     02.2 · CURVA TEMPORAL (chart)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="02.2 Curva temporal">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">02 · Volumen y dinámica temporal</div>
+    <div class="crumb"><span>2.2</span><span class="dot">·</span><b>Evolución diaria</b></div>
+  </header>
+  <div class="frame" style="padding-bottom:160px;">
+    <div class="row" style="align-items:center;margin-bottom:24px;">
+      <div class="col fill">
+        <p class="t-eyebrow" style="margin-bottom:10px;">Nov 2025 – May 2026</p>
+        <h2 class="t-h2">Volumen diario de menciones.</h2>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-family:var(--font-display);font-weight:900;font-size:56px;letter-spacing:-0.025em;color:var(--ink);">462</div>
+        <div style="font-size:18px;color:var(--n-500);letter-spacing:0.06em;text-transform:uppercase;font-weight:600;">total registros</div>
+      </div>
+    </div>
+
+    <!-- Fases -->
+    <div class="row" style="gap:0;margin-bottom:20px;">
+      <div style="flex:1;border-top:3px solid var(--ink);padding-top:10px;">
+        <div style="font-size:15px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--n-600);">Dic 2025</div>
+        <div style="font-size:17px;color:var(--n-500);">Navidad · actividad estacional</div>
+      </div>
+      <div style="flex:1;border-top:3px solid var(--n-400);padding-top:10px;margin-left:2px;">
+        <div style="font-size:15px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--n-600);">Ene – Feb 2026</div>
+        <div style="font-size:17px;color:var(--n-500);">Carnaval · Arroz &amp; precios</div>
+      </div>
+      <div style="flex:1;border-top:3px solid var(--n-400);padding-top:10px;margin-left:2px;">
+        <div style="font-size:15px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--n-600);">Mar – Abr 2026</div>
+        <div style="font-size:17px;color:var(--n-500);">Campaña Mujer Diana</div>
+      </div>
+      <div style="flex:1;border-top:3px solid var(--accent);padding-top:10px;margin-left:2px;">
+        <div style="font-size:15px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);">May 2026</div>
+        <div style="font-size:17px;color:var(--n-500);">Día de la Madre + alerta calidad</div>
+      </div>
+    </div>
+
+    <div class="chart-wrap" style="flex:1;padding:24px 32px 16px;">
+      <svg viewBox="0 0 1600 340" preserveAspectRatio="xMidYMid meet" style="width:100%;height:100%;display:block;">
+        <defs>
+          <lineargradient id="curveFill" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.22"></stop>
+            <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.02"></stop>
+          </lineargradient>
+        </defs>
+        <!-- gridlines -->
+        <g stroke="#EAEAE8" stroke-width="1" stroke-dasharray="3 6">
+          <line x1="60" x2="1560" y1="40" y2="40"></line>
+          <line x1="60" x2="1560" y1="110" y2="110"></line>
+          <line x1="60" x2="1560" y1="180" y2="180"></line>
+          <line x1="60" x2="1560" y1="250" y2="250"></line>
+          <line x1="60" x2="1560" y1="310" y2="310"></line>
+        </g>
+        <!-- y labels -->
+        <g font-family="Inter,system-ui,sans-serif" font-size="14" fill="#8B8B87" text-anchor="end">
+          <text x="52" y="44">130</text>
+          <text x="52" y="114">98</text>
+          <text x="52" y="184">65</text>
+          <text x="52" y="254">33</text>
+          <text x="52" y="314">0</text>
+        </g>
+        <!-- área bajo la curva -->
+        <path d="M 60 308.65 C 185 174.33, 310 40, 435 126.73 C 560 213.46, 685 101.92, 810 190.19 C 935 278.46, 1060 198.65, 1185 133.85 C 1310 169.04, 1435 107.69, 1560 107.69 L 1560 315 L 60 315 Z" fill="url(#curveFill)"></path>
+        <!-- línea base -->
+        <path d="M 60 308.65 C 185 174.33, 310 40, 435 126.73 C 560 213.46, 685 101.92, 810 190.19 C 935 278.46, 1060 198.65, 1185 133.85 C 1310 169.04, 1435 107.69, 1560 107.69" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <!-- picos destacados -->
+        <line x1="310" x2="310" y1="40" y2="315" stroke="#0A0A0A" stroke-width="1" stroke-dasharray="2 4"></line>
+        <circle cx="310" cy="40" r="5" fill="#0A0A0A"></circle>
+        <rect x="200" y="0" width="220" height="36" fill="#0A0A0A" rx="3"></rect>
+        <text x="212" y="24" fill="white" font-family="Inter" font-weight="700" font-size="14" letter-spacing="0.05em">DIC 25 · 130 MENCIONES</text>
+        <!-- x axis labels -->
+        <g font-family="Inter" font-size="15" fill="#5C5C59" text-anchor="middle">
+          <text x="60" y="332">Nov 25</text>
+          <text x="310" y="332">Dic 25</text>
+          <text x="560" y="332">Ene 26</text>
+          <text x="810" y="332">Feb 26</text>
+          <text x="1060" y="332">Mar 26</text>
+          <text x="1310" y="332">Abr 26</text>
+          <text x="1560" y="332">May 26</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>02 · Volumen y dinámica temporal</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 03 · DIVIDER — Desempeño por plataforma
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 03 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num">03</div>
+      <div class="ch-title">Desempeño<br>por plataforma.</div>
+      <div class="ch-desc">Facebook, Instagram y TikTok: volumen, engagement total y tracción por post.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     03.1 · PLATAFORMAS — Tabla comparativa
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="03.1 Plataformas tabla">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">03 · Desempeño por plataforma</div>
+    <div class="crumb"><span>3.1</span><span class="dot">·</span><b>Volumen y engagement por canal</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:28px;">Canales en el corpus</p>
+    <h2 class="t-title" style="margin-bottom:52px;">Twitter domina el volumen. TikTok domina la conversación que importa.</h2>
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Plataforma</th>
+          <th class="num">Registros</th>
+          <th class="num">% del corpus</th>
+          <th>Peso relativo</th>
+          <th>Lectura clave</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="strong">Twitter / X</td>
+          <td class="num">226</td>
+          <td class="num">48,9%</td>
+          <td><div class="barbar" style="height:22px;margin-top:4px;"><i style="width:48.9%;"></i></div></td>
+          <td style="font-size:20px;color:var(--n-600);">Mayoritariamente RTs de debates de precio. Engagement promedio muy bajo.</td>
+        </tr>
+        <tr>
+          <td class="strong accent-color">TikTok</td>
+          <td class="num">61</td>
+          <td class="num">13,2%</td>
+          <td><div class="barbar" style="height:22px;margin-top:4px;"><i style="width:13.2%;background:var(--accent);"></i></div></td>
+          <td style="font-size:20px;color:var(--n-600);">13% del volumen pero 60%+ del engagement total. Canal de mayor riesgo Y mayor oportunidad.</td>
+        </tr>
+        <tr>
+          <td class="strong">Facebook</td>
+          <td class="num">45</td>
+          <td class="num">9,7%</td>
+          <td><div class="barbar" style="height:22px;margin-top:4px;"><i style="width:9.7%;"></i></div></td>
+          <td style="font-size:20px;color:var(--n-600);">Canal oficial Familia Diana. Posts de efemérides y campaña con engagement estable (17–1.031).</td>
+        </tr>
+        <tr>
+          <td class="strong">Noticias online</td>
+          <td class="num">44</td>
+          <td class="num">9,5%</td>
+          <td><div class="barbar" style="height:22px;margin-top:4px;"><i style="width:9.5%;"></i></div></td>
+          <td style="font-size:20px;color:var(--n-600);">Cobertura de campañas y precios canasta. Engagement nulo en mayoría.</td>
+        </tr>
+        <tr>
+          <td class="strong">Instagram</td>
+          <td class="num">41</td>
+          <td class="num">8,9%</td>
+          <td><div class="barbar" style="height:22px;margin-top:4px;"><i style="width:8.9%;"></i></div></td>
+          <td style="font-size:20px;color:var(--n-600);">Canal oficial alimentosdiana. Mejor engagement promedio por post propio (~80–230).</td>
+        </tr>
+        <tr>
+          <td class="strong">Blogs / otros</td>
+          <td class="num">38</td>
+          <td class="num">8,2%</td>
+          <td><div class="barbar" style="height:22px;margin-top:4px;"><i style="width:8.2%;"></i></div></td>
+          <td style="font-size:20px;color:var(--n-600);">Artículos de nicho. Engagement prácticamente nulo.</td>
+        </tr>
+        <tr>
+          <td class="strong">YouTube</td>
+          <td class="num">9</td>
+          <td class="num">1,9%</td>
+          <td><div class="barbar" style="height:22px;margin-top:4px;"><i style="width:1.9%;"></i></div></td>
+          <td style="font-size:20px;color:var(--n-600);">Presencia mínima. Comparador de precios D1 vs ARA con 319 eng. (CarloGato).</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer class="slide-footer">
+    <span>03 · Desempeño por plataforma</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     03.2 · TikTok: la paradoja del canal (hero stat)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="03.2 TikTok paradoja">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">03 · Desempeño por plataforma</div>
+    <div class="crumb"><span>3.2</span><span class="dot">·</span><b>TikTok: la paradoja</b></div>
+  </header>
+  <div class="frame" style="flex-direction:row;align-items:center;gap:96px;">
+    <div class="col" style="flex:1;gap:32px;">
+      <p class="t-eyebrow">TikTok · 61 registros</p>
+      <div class="bignum medium" style="color:var(--accent);">13%</div>
+      <p class="t-h3">del volumen total del corpus.</p>
+      <hr class="hr" style="margin:8px 0;">
+      <p class="t-body" style="color:var(--n-500);">Sin embargo, TikTok concentra los posts de mayor impacto individual del período —en ambas direcciones: el contenido propio más exitoso (<span style="font-weight:700;">alimentosdiana</span> con 1.702–5.695 eng.) y la denuncia de mayor alcance (<span style="font-weight:700;">yuliethg60</span> con 38.872 eng.).</p>
+      <p class="t-body" style="color:var(--n-500);">La relación riesgo/oportunidad en TikTok es más alta que en cualquier otra plataforma. Es donde la marca más puede ganar y más puede perder.</p>
+    </div>
+    <div style="width:1px;background:var(--n-100);align-self:stretch;"></div>
+    <div class="col" style="flex:1;gap:40px;">
+      <div class="stat">
+        <div class="label">Engagement máximo — propio</div>
+        <div class="value">5.695</div>
+        <div class="sub">alimentosdiana · "¿Eres una mujer Diana?" · 1 abr 2026</div>
+      </div>
+      <div class="stat">
+        <div class="label" style="color:#B5251D;">Engagement máximo — denuncia</div>
+        <div class="value accent-color">38.872</div>
+        <div class="sub">yuliethg60 · "@Arroz Diana #arrozdiana #denunciapublica" · 30 abr 2026</div>
+      </div>
+      <div class="stat">
+        <div class="label">Ratio denuncia / mejor post propio</div>
+        <div class="value">6,8×</div>
+        <div class="sub">El video de denuncia generó casi 7 veces el engagement del mejor contenido oficial de la marca en el canal.</div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>03 · Desempeño por plataforma</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 04 · DIVIDER — Contenido propio
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 04 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num">04</div>
+      <div class="ch-title">Contenido<br>propio: qué<br>engacha.</div>
+      <div class="ch-desc">Formatos y temas publicados por los canales oficiales y cuáles concentran mayor engagement.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     04.1 · TOP AUTORES PROPIOS (tabla)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="04.1 Top autores propios">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">04 · Contenido propio</div>
+    <div class="crumb"><span>4.1</span><span class="dot">·</span><b>Canales oficiales vs universo</b></div>
+  </header>
+  <div class="frame" style="padding-bottom:150px;">
+    <p class="t-eyebrow" style="margin-bottom:28px;">Autores por engagement total</p>
+    <h2 class="t-h2" style="margin-bottom:28px;">Los canales propios son eficientes, pero no lideran el corpus.</h2>
+    <div class="row" style="flex:1;align-items:start;gap:64px;">
+      <div style="flex:1.1;">
+        <table class="tbl" style="font-size:19px;">
+          <thead>
+            <tr>
+              <th>Autor</th>
+              <th>Tipología</th>
+              <th class="num">Posts</th>
+              <th class="num">Eng. total</th>
+              <th>Peso</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="strong accent-color">yuliethg60</td>
+              <td style="font-size:17px;color:var(--n-600);">Usuaria denuncia · TikTok</td>
+              <td class="num">1</td>
+              <td class="num accent-color">38.872</td>
+              <td><div class="barbar" style="height:14px;margin-top:5px;"><i style="width:100%;background:var(--accent);"></i></div></td>
+            </tr>
+            <tr style="background:var(--n-50);">
+              <td class="strong">alimentosdiana</td>
+              <td style="font-size:17px;color:var(--n-600);">Canal oficial · IG + TikTok</td>
+              <td class="num">47</td>
+              <td class="num">19.632</td>
+              <td><div class="barbar" style="height:14px;margin-top:5px;"><i style="width:50.5%;"></i></div></td>
+            </tr>
+            <tr>
+              <td class="strong">valentinamb2708</td>
+              <td style="font-size:17px;color:var(--n-600);">Usuaria duda/denuncia · TikTok</td>
+              <td class="num">1</td>
+              <td class="num">4.894</td>
+              <td><div class="barbar" style="height:14px;margin-top:5px;"><i style="width:12.6%;"></i></div></td>
+            </tr>
+            <tr>
+              <td class="strong">sintantacazuela</td>
+              <td style="font-size:17px;color:var(--n-600);">Influencer snacks · TikTok (CA)</td>
+              <td class="num">1</td>
+              <td class="num">4.250</td>
+              <td><div class="barbar" style="height:14px;margin-top:5px;"><i style="width:10.9%;"></i></div></td>
+            </tr>
+            <tr style="background:var(--n-50);">
+              <td class="strong">Familia Diana</td>
+              <td style="font-size:17px;color:var(--n-600);">Canal oficial · Facebook</td>
+              <td class="num">35</td>
+              <td class="num">3.994</td>
+              <td><div class="barbar" style="height:14px;margin-top:5px;"><i style="width:10.3%;"></i></div></td>
+            </tr>
+            <tr>
+              <td class="strong">pelu_nica</td>
+              <td style="font-size:17px;color:var(--n-600);">Influencer snacks · TikTok (CA)</td>
+              <td class="num">1</td>
+              <td class="num">3.460</td>
+              <td><div class="barbar" style="height:14px;margin-top:5px;"><i style="width:8.9%;"></i></div></td>
+            </tr>
+            <tr>
+              <td class="strong">javiervivicc</td>
+              <td style="font-size:17px;color:var(--n-600);">Influencer patrocinado · TikTok</td>
+              <td class="num">1</td>
+              <td class="num">2.751</td>
+              <td><div class="barbar" style="height:14px;margin-top:5px;"><i style="width:7.1%;"></i></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="width:1px;background:var(--n-100);align-self:stretch;"></div>
+      <div class="col" style="flex:0.7;gap:24px;padding-top:8px;">
+        <div class="stat">
+          <div class="label">Eng. canales propios combinados</div>
+          <div class="value">23.626</div>
+          <div class="sub">alimentosdiana + Familia Diana sobre 82 posts.</div>
+        </div>
+        <div class="stat">
+          <div class="label accent-color">Eng. un solo video denuncia</div>
+          <div class="value accent-color">38.872</div>
+          <div class="sub">Un usuario anónimo superó a ambos canales oficiales juntos.</div>
+        </div>
+        <p class="t-small" style="color:var(--n-500);border-top:1px solid var(--n-100);padding-top:20px;">Lectura: la marca tiene canales efectivos, pero el ecosistema amplifica a terceros —positivos y negativos— con mucha más velocidad.</p>
+      </div>
+    </div>
+</div>
+  <footer class="slide-footer">
+    <span>04 · Contenido propio</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     04.2 · FORMATOS QUE ENGANCHAN (numlist)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="04.2 Formatos que enganchan">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">04 · Contenido propio</div>
+    <div class="crumb"><span>4.2</span><span class="dot">·</span><b>Tipos de contenido y desempeño</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:32px;">Formatos publicados por canales oficiales</p>
+    <h2 class="t-title" style="margin-bottom:56px;">Emocional y participativo funciona. Editorial neutro, no tanto.</h2>
+    <div class="row" style="flex:1;align-items:start;gap:72px;">
+      <div class="col fill">
+        <div class="numlist">
+          <div class="item">
+            <div class="num num--accent">A</div>
+            <div>
+              <h4>Contenido emocional / efemérides</h4>
+              <p>Posts de Día de la Madre, Día de la Mujer, Navidad, Reyes. Engagement más alto y consistente. El post de Familia Diana del 5 may 2026 ("Hoy queremos hacer una pausa…") alcanzó <span style="font-weight:700;">1.031 eng.</span> — máximo de un post propio en el corpus.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="num num--accent">B</div>
+            <div>
+              <h4>Contenido participativo / concurso</h4>
+              <p>Publicaciones de la dinámica "Reconocimiento a la Mujer Diana" con llamado a etiquetar y subir video. Generan comentarios orgánicos y alta interacción en Instagram (~190–232 eng. por post) y Facebook (~498 eng.).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="width:1px;background:var(--n-100);align-self:stretch;"></div>
+      <div class="col fill">
+        <div class="numlist">
+          <div class="item">
+            <div class="num">C</div>
+            <div>
+              <h4>Recetas y producto</h4>
+              <p>Contenido de cocina (arroz griego con salmón, buñuelos, arepas, croquetas). Engagement moderado (8–34 eng. en IG). Aporta brand building pero no moviliza tanto como el contenido emocional.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="num">D</div>
+            <div>
+              <h4>Eventos y presencia institucional</h4>
+              <p>Carnaval de Barranquilla, GEMA, novena de Bogotá. Buen engagement proporcional (~70–103 en Facebook), pero alcance limitado. Sirve para comunidad fiel, no para captación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>04 · Contenido propio</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 05 · DIVIDER — Campañas del período
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 05 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num">05</div>
+      <div class="ch-title">Campañas<br>del período.</div>
+      <div class="ch-desc">Reconocimiento a la Mujer Diana: alcance, resonancia y activación de comunidad en el período.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     05.1 · CAMPAÑA MUJER DIANA vs METÉ GOL (two-column)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="05.1 Campañas comparación">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">05 · Campañas del período</div>
+    <div class="crumb"><span>5.1</span><span class="dot">·</span><b>Reconocimiento a la Mujer Diana: resultados y resonancia</b></div>
+  </header>
+  <div class="frame" style="padding-bottom:150px;">
+    <p class="t-eyebrow" style="margin-bottom:16px;">Mar – May 2026</p>
+    <h2 class="t-h2" style="margin-bottom:28px;">Reconocimiento a la Mujer Diana: alcance y resonancia.</h2>
+    <div class="row" style="flex:1;align-items:start;gap:64px;">
+      <div class="col fill">
+        <p style="font-weight:700;font-size:16px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink);border-top:4px solid var(--ink);padding-top:12px;margin-bottom:20px;">#ReconocimientoALaMujerDiana</p>
+        <div class="col gap-5">
+          <div class="stat">
+            <div class="label">Posts rastreados</div>
+            <div class="value" style="font-size:40px;">23+</div>
+            <div class="sub">En IG, FB y TikTok. Campaña activa desde mar hasta may 2026.</div>
+          </div>
+          <div class="stat">
+            <div class="label">Engagement más alto (post)</div>
+            <div class="value" style="font-size:40px;">5.695</div>
+            <div class="sub">alimentosdiana TikTok · "¿Eres una mujer Diana?" · 1 abr 2026</div>
+          </div>
+          <div class="stat">
+            <div class="label">Resonancia total de campaña</div>
+            <div class="value" style="font-size:40px;">65.520</div>
+            <div class="sub">Engagement acumulado en todas las plataformas durante el período de campaña.</div>
+          </div>
+          <p class="t-small" style="color:var(--n-500);margin-top:4px;font-size:16px;">Lectura: campaña con eco real en comunidad colombiana. Mecanismo concurso (100 ganadores) funcionó como acelerador y permitió conectar emocionalmente con audiencia.</p>
+        </div>
+      </div>
+    </div>
+</div>
+  <footer class="slide-footer">
+    <span>05 · Campañas del período</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     05.2 · CITA CAMPAÑA MUJER (quote slide)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="05.2 Quote campaña mujer">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">05 · Campañas del período</div>
+    <div class="crumb"><span>5.2</span><span class="dot">·</span><b>Voz de campaña</b></div>
+  </header>
+  <div class="frame" style="justify-content:center;gap:48px;">
+    <div>
+      <p class="t-eyebrow" style="margin-bottom:28px;">Post de mayor engagement · Familia Diana Facebook · 5 may 2026 · 1.031 interacciones</p>
+      <div class="quote" style="font-size:52px;max-width:1400px;">
+        "Hoy queremos hacer una pausa para reconocer a quienes sostienen todo con su amor: nuestras mamás. Ese amor que está en lo cotidiano, en cada consejo, en cada abrazo que nos impulsa a seguir. Este mes, digamos <span style="color:var(--accent);">'gracias'</span> de verdad."
+        <span class="source">Familia Diana · Facebook · Canal oficial · #mesdelamadre · 5 Mayo 2026</span>
+      </div>
+    </div>
+    <hr class="hr">
+    <div class="row" style="gap:64px;">
+      <div class="col fill">
+        <p class="t-eyebrow" style="margin-bottom:12px;font-size:16px;">Lectura</p>
+        <p class="t-small" style="color:var(--n-600);">El tono cálido, familiar y sin hipérbole conecta más que el contenido aspiracional. El Día de la Madre fue el pico de engagement propio del período.</p>
+      </div>
+      <div class="col fill">
+        <p class="t-eyebrow" style="margin-bottom:12px;font-size:16px;">Lo que replicó</p>
+        <p class="t-small" style="color:var(--n-600);">El mismo copy funcionó en TikTok (1.702 eng.) y en IG (135 eng.). La narrativa viajó bien entre plataformas sin modificación de tono.</p>
+      </div>
+      <div class="col fill">
+        <p class="t-eyebrow" style="margin-bottom:12px;font-size:16px;">Implicancia</p>
+        <p class="t-small" style="color:var(--n-600);">Más contenido de este tipo —emocional, específico, con propósito— y menos relleno informativo. La marca tiene permiso cultural para este territorio.</p>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>05 · Campañas del período</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 06 · DIVIDER — Sentimiento y narrativas
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 06 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num">06</div>
+      <div class="ch-title">Sentimiento<br>y narrativas<br>orgánicas.</div>
+      <div class="ch-desc">Cómo habla la conversación no propia sobre Diana: precios, calidad, humor, nostalgia y activismo político.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     06.1 · SENTIMIENTO GLOBAL (stacked bar)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="06.1 Sentimiento global">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">06 · Sentimiento y narrativas orgánicas</div>
+    <div class="crumb"><span>6.1</span><span class="dot">·</span><b>Distribución de sentimiento</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:32px;">462 registros clasificados</p>
+    <h2 class="t-title" style="margin-bottom:52px;">El corpus es predominantemente neutro, pero lo negativo pesa más de lo esperado.</h2>
+
+    <!-- Stacked bar -->
+    <div style="display:flex;height:112px;border:1px solid var(--n-200);margin-bottom:40px;overflow:hidden;">
+      <div style="background:#B5251D;width:15.2%;display:flex;align-items:center;justify-content:center;color:white;font-family:var(--font-display);font-weight:900;font-size:40px;letter-spacing:-0.02em;">15,2%</div>
+      <div style="background:#EAEAE8;width:48%;display:flex;align-items:center;justify-content:center;color:var(--ink);font-family:var(--font-display);font-weight:900;font-size:40px;letter-spacing:-0.02em;">48,0%</div>
+      <div style="background:#1B9E4B;width:36.8%;display:flex;align-items:center;justify-content:center;color:white;font-family:var(--font-display);font-weight:900;font-size:40px;letter-spacing:-0.02em;">36,8%</div>
+    </div>
+
+    <div class="row" style="gap:0;margin-bottom:48px;">
+      <div class="col fill" style="padding-right:48px;border-right:1px solid var(--n-100);">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:16px;">
+          <div style="width:20px;height:20px;background:#B5251D;border-radius:3px;flex-shrink:0;"></div>
+          <span style="font-weight:700;font-size:20px;letter-spacing:0.06em;text-transform:uppercase;color:#B5251D;">Negativo — 70 registros</span>
+        </div>
+        <p class="t-small" style="color:var(--n-600);">Quejas de calidad (gorgojos/gusanos), críticas al precio, menciones como "el arroz Diana es una basura" y denuncias formales. Minoría pero de alta viralidad.</p>
+      </div>
+      <div class="col fill" style="padding:0 48px;border-right:1px solid var(--n-100);">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:16px;">
+          <div style="width:20px;height:20px;background:#EAEAE8;border:1px solid var(--n-300);border-radius:3px;flex-shrink:0;"></div>
+          <span style="font-weight:700;font-size:20px;letter-spacing:0.06em;text-transform:uppercase;color:var(--n-600);">Neutro — 222 registros</span>
+        </div>
+        <p class="t-small" style="color:var(--n-600);">Debate de precios, menciones en contexto político (canasta familiar) y humor cultural. No implica riesgo directo, pero tampoco defensa activa.</p>
+      </div>
+      <div class="col fill" style="padding-left:48px;">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:16px;">
+          <div style="width:20px;height:20px;background:#1B9E4B;border-radius:3px;flex-shrink:0;"></div>
+          <span style="font-weight:700;font-size:20px;letter-spacing:0.06em;text-transform:uppercase;color:#1B9E4B;">Positivo — 170 registros</span>
+        </div>
+        <p class="t-small" style="color:var(--n-600);">Contenido propio de canales oficiales, influencers patrocinadas, GEMA 2025, cobertura de campañas y reconocimientos de marca. Generan tracción real.</p>
+      </div>
+    </div>
+
+  </div>
+  <footer class="slide-footer">
+    <span>06 · Sentimiento y narrativas orgánicas</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     06.2 · NARRATIVAS — Tabla (6 narrativas)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="06.2 Narrativas tabla">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">06 · Sentimiento y narrativas orgánicas</div>
+    <div class="crumb"><span>6.2</span><span class="dot">·</span><b>Seis narrativas dominantes</b></div>
+  </header>
+  <div class="frame" style="padding-bottom:150px;">
+    <p class="t-eyebrow" style="margin-bottom:16px;">Conversación orgánica clasificada por tema</p>
+    <h2 class="t-h2" style="margin-bottom:28px;">Seis conversaciones paralelas sobre la misma marca.</h2>
+    <table class="tbl" style="font-size:19px;">
+      <thead>
+        <tr>
+          <th>Narrativa</th>
+          <th class="num">Share est.</th>
+          <th>Frase prototípica</th>
+          <th>Riesgo / Oportunidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="strong pos-color">Celebración emocional y vínculo familiar</td>
+          <td class="num">28%</td>
+          <td><span class="mono" style="font-size:15px;">"con su amor todo sabe mejor"</span></td>
+          <td style="font-size:17px;color:#0F6B33;">Oportunidad. Territorio propio de la marca. Genera el mayor engagement positivo.</td>
+        </tr>
+        <tr style="background:var(--accent-soft);">
+          <td class="strong" style="color:#B5251D;">Quejas de calidad (gorgojos/gusanos/moho)</td>
+          <td class="num accent-color">22%</td>
+          <td><span class="mono" style="font-size:15px;">"siempre me pasa con el arroz diana… gusanos por encima"</span></td>
+          <td style="font-size:17px;color:#B5251D;">Riesgo alto. Virulento en TikTok. Un post acumuló 38.872 eng.</td>
+        </tr>
+        <tr>
+          <td class="strong pos-color">Reconocimiento a la Mujer Diana</td>
+          <td class="num">18%</td>
+          <td><span class="mono" style="font-size:15px;">"reconocimiento a todas las mujeres"</span></td>
+          <td style="font-size:17px;color:#0F6B33;">Oportunidad. Campaña activa con eco orgánico real. Influencers amplifican bien.</td>
+        </tr>
+        <tr>
+          <td class="strong" style="color:var(--n-600);">Precio y debate político canasta familiar</td>
+          <td class="num">14%</td>
+          <td><span class="mono" style="font-size:15px;">"bolsa de arroz Diana $8.500 osea $1.700 libra"</span></td>
+          <td style="font-size:17px;color:var(--n-600);">Neutral-negativo. Fuera del control de la marca. No gestionar directamente.</td>
+        </tr>
+        <tr>
+          <td class="strong pos-color">Preparación culinaria y recetas</td>
+          <td class="num">18%</td>
+          <td><span class="mono" style="font-size:15px;">"arroz Diana entra en mis recetas diarias"</span></td>
+          <td style="font-size:17px;color:#0F6B33;">Oportunidad. Integración natural en cocina colombiana. Abre puerta para UGC de recetas.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer class="slide-footer">
+    <span>06 · Sentimiento y narrativas orgánicas</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 07 · DIVIDER — Señales de alerta
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 07 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num" style="color:var(--accent);">07</div>
+      <div class="ch-title" style="color:var(--accent);">Señales<br>de alerta.</div>
+      <div class="ch-desc">El clúster de calidad de producto: gorgojos, gusanos y mal estado del arroz. Dimensionamiento y potencial de escalamiento.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     07.1 · HERO STAT — 38.872 (el número que importa)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="07.1 Hero stat alerta">
+<div class="slide dark">
+  <header class="slide-header">
+    <div class="eyebrow">07 · Señales de alerta</div>
+    <div class="crumb"><span>7.1</span><span class="dot">·</span><b>El número que define el riesgo</b></div>
+  </header>
+  <div class="frame" style="flex-direction:row;align-items:center;gap:96px;">
+    <div class="col" style="flex:1;gap:24px;">
+      <p class="t-eyebrow">Un solo video de denuncia · TikTok · 30 abr 2026</p>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:200px;line-height:0.87;letter-spacing:-0.045em;color:var(--accent);">38.872</div>
+      <p class="t-h3" style="color:var(--paper);">interacciones en una sola denuncia.</p>
+    </div>
+    <div style="width:1px;background:rgba(255,255,255,.12);align-self:stretch;"></div>
+    <div class="col" style="flex:1;gap:40px;">
+      <div class="stat">
+        <div class="label">Engagement total canales oficiales combinados</div>
+        <div class="value">23.626</div>
+        <div class="sub">82 posts en todo el período de 177 días.</div>
+      </div>
+      <div class="stat">
+        <div class="label" style="color:var(--accent);">Citas TikTok sobre gorgojos / gusanos</div>
+        <div class="value" style="color:var(--accent);">15+</div>
+        <div class="sub">Usuarios distintos reportando la misma experiencia. Patrón consistente, no caso aislado.</div>
+      </div>
+      <div style="background:rgba(255,90,31,.12);border:1px solid rgba(255,90,31,.35);padding:24px 28px;">
+        <p style="font-size:20px;line-height:1.45;color:rgba(255,255,255,.85);">Un video anónimo de queja superó en engagement a <span style="font-weight:700;color:var(--accent);">82 publicaciones oficiales combinadas</span>. Es una señal de riesgo reputacional estructural que requiere acción inmediata.</p>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>07 · Señales de alerta</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     07.2 · CITA DENUNCIA (quote)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="07.2 Quote denuncia">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">07 · Señales de alerta</div>
+    <div class="crumb"><span>7.2</span><span class="dot">·</span><b>La voz del clúster</b></div>
+  </header>
+  <div class="frame" style="justify-content:center;gap:52px;">
+    <p class="t-eyebrow" style="margin-bottom:0;">Post representativo · mariamunerajarami3 · TikTok · 4 may 2026 · 22 interacciones</p>
+    <div class="quote" style="font-size:50px;max-width:1400px;color:#B5251D;">
+      "siempre me pasa con el arroz diana, y después q lo cocino quedan gusanos por encima del arroz y toca botarlo."
+      <span class="source" style="color:var(--n-500);">mariamunerajarami3 · TikTok · consumidora Colombia · mayo 2026</span>
+    </div>
+    <hr class="hr">
+    <div class="row" style="gap:64px;">
+      <div class="col fill">
+        <p class="t-eyebrow" style="margin-bottom:12px;font-size:16px;">Patrón</p>
+        <p class="t-small" style="color:var(--n-600);">15+ usuarios distintos en TikTok reportan la misma experiencia: gorgojos, gusanos, moho, arroz "sucio". El clúster se activó con fuerza en mayo 2026 (mayoritariamente 4 mayo).</p>
+      </div>
+      <div class="col fill">
+        <p class="t-eyebrow" style="margin-bottom:12px;font-size:16px;">Mecanismo</p>
+        <p class="t-small" style="color:var(--n-600);">Un video con alto engagement (38.872) arrastra comentarios y videos-respuesta. El algoritmo de TikTok amplifica denuncias de consumo más rápido que respuestas oficiales.</p>
+      </div>
+      <div class="col fill">
+        <p class="t-eyebrow" style="margin-bottom:12px;font-size:16px;">Señal de alerta</p>
+        <p class="t-small" style="color:var(--n-600);">Usuarios declaran explícitamente haber cambiado de marca: <span style="font-weight:700;">"dejé de comprarlo"</span>, <span style="font-weight:700;">"cambié el arroz Diana"</span>, <span style="font-weight:700;">"ya no vuelvo a comprar"</span>. Riesgo de pérdida de cliente activo.</p>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>07 · Señales de alerta</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     07.3 · AGRAVANTES Y MITIGANTES (two-column)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="07.3 Agravantes y mitigantes">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">07 · Señales de alerta</div>
+    <div class="crumb"><span>7.3</span><span class="dot">·</span><b>Lectura de riesgo: agravantes vs mitigantes</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:32px;">Balance del clúster calidad</p>
+    <h2 class="t-title" style="margin-bottom:52px;">El riesgo está contenido, pero no neutralizado.</h2>
+    <div class="row" style="flex:1;align-items:start;gap:0;">
+      <div class="col fill" style="padding-right:64px;border-right:1px solid var(--n-200);">
+        <p style="font-weight:700;font-size:18px;letter-spacing:0.1em;text-transform:uppercase;color:#B5251D;border-top:4px solid #B5251D;padding-top:16px;margin-bottom:32px;">Agravantes</p>
+        <div class="col gap-6">
+          <div>
+            <p class="t-h3" style="font-size:26px;margin-bottom:8px;">Viralidad asimétrica en TikTok</p>
+            <p class="t-small" style="color:var(--n-600);">El video de yuliethg60 (38.872 eng.) no recibió respuesta pública visible de la marca. La denuncia quedó sin contrapeso oficial.</p>
+          </div>
+          <hr class="hr">
+          <div>
+            <p class="t-h3" style="font-size:26px;margin-bottom:8px;">Patrón repetido, no caso único</p>
+            <p class="t-small" style="color:var(--n-600);">15+ usuarios reportan la misma queja con lenguaje similar. La consistencia del relato le da credibilidad ante nuevos consumidores.</p>
+          </div>
+          <hr class="hr">
+          <div>
+            <p class="t-h3" style="font-size:26px;margin-bottom:8px;">Declaraciones de abandono de marca</p>
+            <p class="t-small" style="color:var(--n-600);">Usuarios expresan explícitamente haber cambiado a competidores (Florhuila, Roa, marcas D1). Hay pérdida de cliente documentada.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col fill" style="padding-left:64px;">
+        <p style="font-weight:700;font-size:18px;letter-spacing:0.1em;text-transform:uppercase;color:#0F6B33;border-top:4px solid #0F6B33;padding-top:16px;margin-bottom:32px;">Mitigantes</p>
+        <div class="col gap-6">
+          <div>
+            <p class="t-h3" style="font-size:26px;margin-bottom:8px;">Top of mind robusto</p>
+            <p class="t-small" style="color:var(--n-600);">Diana es mencionada en ranking GEMA 2025 de P&amp;M y aparece como referencia de precio en debate político. La marca no está en crisis de reconocimiento.</p>
+          </div>
+          <hr class="hr">
+          <div>
+            <p class="t-h3" style="font-size:26px;margin-bottom:8px;">Defensores activos en comentarios</p>
+            <p class="t-small" style="color:var(--n-600);">Usuarios contradicen las quejas en los comentarios de los videos: <span style="font-weight:700;">"yo siempre compro y nunca me ha pasado"</span>. La comunidad tiene lealtad real.</p>
+          </div>
+          <hr class="hr">
+          <div>
+            <p class="t-h3" style="font-size:26px;margin-bottom:8px;">Explicaciones alternativas circulan</p>
+            <p class="t-small" style="color:var(--n-600);">Varios usuarios sugieren que el problema es de almacenamiento en el hogar, no del producto. El debate no está cerrado a favor de la denuncia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>07 · Señales de alerta</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     CAP 08 · DIVIDER — Recomendaciones
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="Cap 08 Divider">
+<div class="slide dark">
+  <div class="divider">
+    <div class="top-row">
+      <div class="ch-eyebrow">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+    <div>
+      <div class="ch-num">08</div>
+      <div class="ch-title">Recomendaciones<br>estratégicas.</div>
+      <div class="ch-desc">Acciones concretas de contenido, gestión de comunidad y vigilancia para el siguiente período.</div>
+    </div>
+    <div></div>
+  </div>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     08.1 · RECOMENDACIONES — Vigilancia y gestión de crisis (numlist)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="08.1 Recomendaciones vigilancia">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">08 · Recomendaciones estratégicas</div>
+    <div class="crumb"><span>8.1</span><span class="dot">·</span><b>Vigilancia y gestión del clúster de calidad</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:32px;">Prioridad inmediata</p>
+    <h2 class="t-title" style="margin-bottom:56px;">Tres acciones no negociables ante el clúster de quejas.</h2>
+    <div class="row" style="flex:1;align-items:start;gap:72px;">
+      <div class="col fill">
+        <div class="numlist">
+          <div class="item">
+            <div class="num num--accent">01</div>
+            <div>
+              <h4>Protocolo de respuesta en TikTok en &lt;24h</h4>
+              <p>Establecer un flujo de monitoreo diario para menciones de <span class="mono" style="font-size:19px;">#arrozdiana</span> en TikTok. Ante videos de denuncia con &gt;500 eng., activar respuesta oficial dentro de las 24 horas. Tono: empático, propositivo, con canal directo de contacto.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="num num--accent">02</div>
+            <div>
+              <h4>Investigación interna de origen del problema</h4>
+              <p>Coordinar con operaciones y calidad para determinar si las quejas corresponden a un lote específico, canal de distribución o condición de almacenamiento. Sin diagnóstico interno, la respuesta comunicacional queda vacía.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="width:1px;background:var(--n-100);align-self:stretch;"></div>
+      <div class="col fill">
+        <div class="numlist">
+          <div class="item">
+            <div class="num num--accent">03</div>
+            <div>
+              <h4>Contenido proactivo de confianza en el producto</h4>
+              <p>Producir 2–3 videos cortos en TikTok protagonizados por alguien del equipo de calidad o un chef de confianza: "así revisamos el arroz antes de empacar", "esto es lo que pasa si el arroz se almacena mal en casa". Formato: educativo, no defensivo.</p>
+            </div>
+          </div>
+          <div style="background:var(--n-50);border:1px solid var(--n-100);padding:24px 28px;margin-top:8px;">
+            <p class="t-eyebrow" style="font-size:16px;margin-bottom:10px;">Por qué ahora</p>
+            <p class="t-small" style="color:var(--n-600);">El clúster existe desde diciembre 2025 (tweet de olor a veneno) y escaló en mayo 2026 con el video viral. Si no se interviene, el próximo pico será más difícil de gestionar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>08 · Recomendaciones estratégicas</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     08.2 · RECOMENDACIONES — Contenido y comunidad (numlist)
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="08.2 Recomendaciones contenido">
+<div class="slide">
+  <header class="slide-header">
+    <div class="eyebrow">08 · Recomendaciones estratégicas</div>
+    <div class="crumb"><span>8.2</span><span class="dot">·</span><b>Optimización de contenido y comunidad</b></div>
+  </header>
+  <div class="frame">
+    <p class="t-eyebrow" style="margin-bottom:32px;">Siguiente período</p>
+    <h2 class="t-title" style="margin-bottom:52px;">Consolidar lo que funciona. Expandir donde hay espacio.</h2>
+    <div class="row" style="flex:1;align-items:start;gap:72px;">
+      <div class="col fill">
+        <div class="numlist">
+          <div class="item">
+            <div class="num">A</div>
+            <div>
+              <h4>Mantener el territorio emocional como ancla</h4>
+              <p>El contenido ligado a madre, familia y mujer tiene el engagement más alto y consistente. No canibalizar ese espacio con contenido de producto puro. La marca tiene permiso cultural en ese territorio.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="num">B</div>
+            <div>
+              <h4>Escalar TikTok con un plan de publicación propio</h4>
+              <p>alimentosdiana publica poco en TikTok (5–7 posts rastreados) pero genera altos retornos cuando lo hace. Aumentar frecuencia a 3–4 posts semanales. El canal es crítico y actualmente subutilizado por la marca.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="width:1px;background:var(--n-100);align-self:stretch;"></div>
+      <div class="col fill">
+        <div class="numlist">
+          <div class="item">
+            <div class="num">C</div>
+            <div>
+              <h4>Articular la narrativa de precio como dato positivo</h4>
+              <p>Diana aparece en debates de canasta familiar como referencia de precio accesible. Eso es una ventaja competitiva. Crear contenido que lo nombre directamente: "Diana, el arroz que cabe en todos los presupuestos".</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="slide-footer">
+    <span>08 · Recomendaciones estratégicas</span>
+    <span class="right" style="font-family:var(--font-display);font-weight:900;font-size:18px;letter-spacing:0.04em;color:var(--n-400);">artool.</span>
+  </footer>
+</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════════
+     09 · CIERRE
+     ═══════════════════════════════════════════════════════════════ -->
+<section data-label="09 Cierre">
+<div class="slide dark">
+  <div class="closing">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <div style="font-weight:700;font-size:16px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,.5);">Grupo Diana · Monitoreo digital · Nov 2025 – May 2026</div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:28px;color:rgba(255,255,255,.35);letter-spacing:-0.01em;">GRUPO DIANA</div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;justify-content:center;gap:36px;">
+      <p style="font-weight:700;font-size:18px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:4px;">Lectura final</p>
+      <h2 style="font-family:var(--font-display);font-weight:900;font-size:116px;line-height:0.93;letter-spacing:-0.035em;color:var(--paper);max-width:1500px;">Contenido propio rinde,<br>pero la calidad del producto<br><span style="color:var(--accent);">amenaza la conversación.</span></h2>
+      <p style="font-size:28px;line-height:1.45;color:rgba(255,255,255,.68);max-width:1200px;">Los canales oficiales generan engagement real y las campañas activan a la comunidad. La prioridad del siguiente período no es publicar más: es gestionar el clúster de quejas de calidad antes de que escale.</p>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;">
+      <div style="font-weight:600;font-size:15px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,.4);">
+        Reporte preparado por Artool · Mayo 2026 · Uso interno Grupo Diana
+      </div>
+      <div style="font-family:var(--font-display);font-weight:900;font-size:32px;letter-spacing:-0.01em;color:rgba(255,255,255,.9);">artool.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+</deck-stage>
+
+<div class="presenter-controls">
+  <button id="pres-prev" aria-label="Anterior">←</button>
+  <span class="counter"><span id="pres-i">1</span>/<span id="pres-n">28</span></span>
+  <button id="pres-next" aria-label="Siguiente">→</button>
+  <button id="pres-toggle">Presentar · F</button>
+</div>
+<script>
+(function () {
+  var slides = document.querySelectorAll('section[data-label]');
+  var i = 0;
+  var elI = document.getElementById('pres-i');
+  var elN = document.getElementById('pres-n');
+  var btn = document.getElementById('pres-toggle');
+  elN.textContent = slides.length;
+
+  function setSlide(n) {
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    elI.textContent = i + 1;
+    if (document.body.classList.contains('presenting')) {
+      for (var k = 0; k < slides.length; k++) {
+        slides[k].classList.toggle('current', k === i);
+      }
+    } else {
+      slides[i].scrollIntoView({behavior: 'smooth', block: 'start'});
+    }
+  }
+  function toggle() {
+    var on = document.body.classList.toggle('presenting');
+    btn.textContent = on ? 'Salir · Esc' : 'Presentar · F';
+    if (on) {
+      for (var k = 0; k < slides.length; k++) slides[k].classList.toggle('current', k === i);
+      if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen().catch(function(){});
+      }
+    } else {
+      for (var k = 0; k < slides.length; k++) slides[k].classList.remove('current');
+      if (document.fullscreenElement) document.exitFullscreen();
+    }
+  }
+  document.getElementById('pres-prev').onclick = function () { setSlide(i - 1); };
+  document.getElementById('pres-next').onclick = function () { setSlide(i + 1); };
+  btn.onclick = toggle;
+
+  document.addEventListener('keydown', function (e) {
+    if (e.target.matches('input, textarea, select')) return;
+    var k = e.key;
+    if (k === 'ArrowRight' || k === ' ' || k === 'PageDown') { e.preventDefault(); setSlide(i + 1); }
+    else if (k === 'ArrowLeft' || k === 'PageUp') { e.preventDefault(); setSlide(i - 1); }
+    else if (k === 'Home') { e.preventDefault(); setSlide(0); }
+    else if (k === 'End') { e.preventDefault(); setSlide(slides.length - 1); }
+    else if ((k === 'f' || k === 'F') && !e.metaKey && !e.ctrlKey && !e.altKey) {
+      e.preventDefault(); toggle();
+    } else if (k === 'Escape' && document.body.classList.contains('presenting')) {
+      e.preventDefault(); toggle();
+    }
+  });
+
+  document.addEventListener('fullscreenchange', function () {
+    if (!document.fullscreenElement && document.body.classList.contains('presenting')) {
+      document.body.classList.remove('presenting');
+      for (var k = 0; k < slides.length; k++) slides[k].classList.remove('current');
+      btn.textContent = 'Presentar · F';
+    }
+  });
+})();
+</script>
+
+
+</body></html>
